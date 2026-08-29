@@ -1,0 +1,60 @@
+about:
+  description: Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
+  license: NOASSERTION
+  homepage: http://developer.hashicorp.com/terraform
+  head: d052145
+  archived: false
+  latestVersion: v1.17.0-alpha20260827
+  collectedAt: 2026-08-29T07:13:26Z
+timeline:
+  created: 2014-03-13
+  lastCommit: 2026-08-28
+  lastRelease: 2026-08-27
+popularity:
+  star: 49562
+  watcher: 1182
+  fork: 10615
+  release: 439
+  contributor: 3158
+  pullRequest: 3142
+  issue: 21755
+language:
+  Go: 19745234
+  HCL: 33486
+  Shell: 24053
+  Dockerfile: 3622
+  Makefile: 1414
+totalLine: 19807809
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 7
+    mergedPR: 78
+    openPR: 13
+    closedIssue: 10
+    openIssue: 12
+    commit: 110
+  last90d:
+    since: 2026-05-31
+    release: 20
+    mergedPR: 251
+    openPR: 28
+    closedIssue: 27
+    openIssue: 24
+    commit: 390
+  last180d:
+    since: 2026-03-02
+    release: 37
+    mergedPR: 472
+    openPR: 40
+    closedIssue: 95
+    openIssue: 49
+    commit: 698
+  last360d:
+    since: 2025-09-03
+    release: 59
+    mergedPR: 817
+    openPR: 62
+    closedIssue: 219
+    openIssue: 107
+    commit: 1194
