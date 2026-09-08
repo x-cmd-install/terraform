@@ -5,7 +5,7 @@ about:
   head: c6e8676
   archived: false
   latestVersion: "v1.16.1"
-  collectedAt: 2026-09-08T03:20:37Z
+  collectedAt: 2026-09-08T06:12:28Z
 timeline:
   created: 2014-03-13
   lastCommit: 2026-09-07
@@ -83,7 +83,7 @@ total:
   commit: 35902
 ---
 path: /home/runner/.x-repo/github.com/hashicorp/terraform
-collectedAt: 2026-09-08T03:21:11Z
+collectedAt: 2026-09-08T06:13:06Z
 loc:
   Go:
     code: 549625
