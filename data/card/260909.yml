@@ -2,108 +2,108 @@ about:
   description: "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned."
   license: NOASSERTION
   homepage: http://developer.hashicorp.com/terraform
-  head: 226a1e1
+  head: eb88744
   archived: false
-  latestVersion: "v1.16.1"
-  latestRelease: "v1.16.1"
-  latestPrerelease: "v1.17.0-alpha20260827"
-  collectedAt: 2026-09-09T06:22:29Z
+  latestVersion: "v1.17.0-beta1"
+  latestRelease: "v1.16.2"
+  latestPrerelease: "v1.17.0-beta1"
+  collectedAt: 2026-09-09T20:52:05Z
 timeline:
   created: 2014-03-13
-  lastCommit: 2026-09-08
-  lastVersion: 2026-09-02
-  lastRelease: 2026-09-02
-  lastPrerelease: 2026-08-27
+  lastCommit: 2026-09-09
+  lastVersion: 2026-09-09
+  lastRelease: 2026-09-09
+  lastPrerelease: 2026-09-09
 popularity:
-  star: 49629
-  watcher: 1181
-  fork: 10615
-  release: 440
+  star: 49631
+  watcher: 1176
+  fork: 10608
+  release: 442
   contributor: 1959
-  pullRequest: 16864
-  issue: 21770
+  pullRequest: 16875
+  issue: 21771
 language:
-  Go: 19782013
+  Go: 19831491
   HCL: 33486
   Shell: 24053
   Dockerfile: 3622
   Makefile: 1414
-totalBytes: 19844588
+totalBytes: 19894066
 recent:
   last30d:
     since: 2026-08-10
-    release: 7
-    mergedPR: 79
-    openPR: 17
+    release: 9
+    mergedPR: 89
+    openPR: 16
     closedIssue: 14
-    openIssue: 14
-    commit: 57
+    openIssue: 15
+    commit: 62
   last60d:
     since: 2026-07-11
-    release: 11
-    mergedPR: 158
-    openPR: 24
+    release: 13
+    mergedPR: 168
+    openPR: 22
     closedIssue: 23
-    openIssue: 21
-    commit: 195
+    openIssue: 22
+    commit: 200
   last90d:
     since: 2026-06-11
-    release: 19
-    mergedPR: 252
-    openPR: 30
+    release: 21
+    mergedPR: 262
+    openPR: 28
     closedIssue: 31
-    openIssue: 28
-    commit: 354
+    openIssue: 29
+    commit: 359
   last180d:
     since: 2026-03-13
-    release: 36
-    mergedPR: 476
-    openPR: 38
+    release: 38
+    mergedPR: 486
+    openPR: 35
     closedIssue: 100
-    openIssue: 52
-    commit: 642
+    openIssue: 53
+    commit: 647
   last360d:
     since: 2025-09-14
-    release: 57
-    mergedPR: 824
-    openPR: 63
+    release: 59
+    mergedPR: 834
+    openPR: 60
     closedIssue: 219
-    openIssue: 104
-    commit: 1175
+    openIssue: 105
+    commit: 1180
   last720d:
     since: 2024-09-19
     release: 100
-    mergedPR: 1911
-    openPR: 76
+    mergedPR: 1921
+    openPR: 73
     closedIssue: 655
-    openIssue: 219
-    commit: 2574
+    openIssue: 220
+    commit: 2579
 total:
-  release: 440
-  mergedPR: 13710
-  openPR: 161
+  release: 442
+  mergedPR: 13720
+  openPR: 158
   closedIssue: 20009
-  openIssue: 1761
-  commit: 35903
+  openIssue: 1762
+  commit: 35908
 ---
 path: /home/runner/.x-repo/github.com/hashicorp/terraform
-collectedAt: 2026-09-09T06:23:06Z
+collectedAt: 2026-09-09T20:52:51Z
 loc:
   Go:
-    code: 549451
-    comments: 69583
-    blanks: 77295
-    files: 2003
+    code: 551159
+    comments: 69623
+    blanks: 77486
+    files: 2008
   Json:
     code: 29681
     comments: 0
     blanks: 7
     files: 387
   Hcl:
-    code: 23928
-    comments: 1084
-    blanks: 4657
-    files: 2263
+    code: 24173
+    comments: 1089
+    blanks: 4685
+    files: 2284
   Protobuf:
     code: 2828
     comments: 1771
@@ -146,8 +146,8 @@ loc:
     files: 2
   Markdown:
     code: 0
-    comments: 3118
-    blanks: 870
+    comments: 3108
+    blanks: 855
     files: 34
   Text:
     code: 0
@@ -155,10 +155,10 @@ loc:
     blanks: 2
     files: 9
 total:
-  code: 606442
-  comments: 75823
-  blanks: 83752
-  files: 4736
+  code: 608395
+  comments: 75858
+  blanks: 83956
+  files: 4762
 ---
 date: "2026-09-07"
 repo:
