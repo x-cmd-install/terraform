@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.17.0-beta1"
   latestRelease: "v1.16.2"
   latestPrerelease: "v1.17.0-beta1"
-  collectedAt: 2026-09-10T21:10:59Z
+  collectedAt: 2026-09-10T21:52:57Z
 timeline:
   created: 2014-03-13
   lastCommit: 2026-09-10
@@ -87,7 +87,7 @@ total:
   commit: 35923
 ---
 path: /home/runner/.x-repo/github.com/hashicorp/terraform
-collectedAt: 2026-09-10T21:11:41Z
+collectedAt: 2026-09-10T21:53:37Z
 loc:
   Go:
     code: 551790
