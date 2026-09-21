@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 49,692 · **Forks**: 10,627 · **Open issues**: 21,785 · **Contributors**: 1,959
+- **Stars**: 49,700 · **Forks**: 10,625 · **Open issues**: 21,785 · **Contributors**: 1,959
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 6 | 97 | 20 | 20 | 17 | 80 |
-| last60d | 2026-07-22 | 13 | 191 | 23 | 29 | 25 | 198 |
-| 90d | 2026-06-22 | 21 | 281 | 30 | 38 | 32 | 337 |
-| last180d | 2026-03-24 | 38 | 515 | 38 | 105 | 53 | 645 |
-| 360d | 2025-09-25 | 58 | 835 | 63 | 221 | 100 | 1196 |
-| last720d | 2024-09-30 | 100 | 1950 | 76 | 644 | 216 | 2557 |
+| 30d | 2026-08-22 | 6 | 97 | 20 | 20 | 17 | 80 |
+| last60d | 2026-07-23 | 13 | 179 | 23 | 29 | 25 | 198 |
+| 90d | 2026-06-23 | 21 | 275 | 30 | 38 | 30 | 337 |
+| last180d | 2026-03-25 | 38 | 513 | 38 | 104 | 52 | 645 |
+| 360d | 2025-09-26 | 57 | 830 | 63 | 217 | 96 | 1196 |
+| last720d | 2024-10-01 | 100 | 1948 | 76 | 643 | 216 | 2544 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for terraform lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T06:31:53Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T06:40:32Z._
