@@ -43,8 +43,8 @@
   "body": "## 1.16.3 (September 16, 2026)\n\n\nBUG FIXES:\n\n* Fix handling of destroy=false around create_before_destroy instances ([#39169](https://github.com/hashicorp/terraform/issues/39169))\n\n* Fix function result comparison when there are multiple marks ([#39170](https://github.com/hashicorp/terraform/issues/39170))\n\n* Filter logic for marks could cause values with multiple marks to erroneously fail validations ([#39171](https://github.com/hashicorp/terraform/issues/39171))\n\n* Fix issue with import provider resolution ([#39185](https://github.com/hashicorp/terraform/issues/39185))\n\n\n",
   "reactions": {
     "url": "https://api.github.com/repos/hashicorp/terraform/releases/390005903/reactions",
-    "total_count": 2,
-    "+1": 1,
+    "total_count": 3,
+    "+1": 2,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
