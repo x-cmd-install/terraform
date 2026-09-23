@@ -4,7 +4,7 @@
 
 Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
 
-[![x-cmd/install — terraform Code Quality Monitoring Repo Card](https://repo.x-cmd.io/terraform.svg?lang=zh)](https://x-cmd.com/install/terraform)
+[![x-cmd/install — terraform Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/terraform.svg?lang=zh)](https://x-cmd.com/install/terraform)
 
 ## 安装
 
@@ -14,11 +14,11 @@ x install terraform
 
 ## 代码洞察
 
-合计: **610,269** 行代码（覆盖前 5 种语言、共 **4720** 个文件）。
+合计: **610,566** 行代码（覆盖前 5 种语言、共 **4722** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 552,958 | 69,802 | 77,683 | 2014 |
+| Go | 553,255 | 69,820 | 77,716 | 2016 |
 | Json | 29,681 | 0 | 7 | 387 |
 | Hcl | 24,270 | 1,089 | 4,706 | 2289 |
 | Protobuf | 2,829 | 1,771 | 725 | 15 |
@@ -26,7 +26,7 @@ x install terraform
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.6 / 10**
+总评分: **6.3 / 10**
 
 评分最低的几项:
 
@@ -43,26 +43,26 @@ x install terraform
 ## 发布
 
 - **最新版本**: `v1.16.3` (2026-09-16)
-- **最近提交**: 2026-09-21
+- **最近提交**: 2026-09-22
 
 ## 流行度
 
-- **Star**: 49,707 · **Fork**: 10,625 · **开放 issue**: 21,787 · **贡献者**: 1,959
+- **Star**: 49,716 · **Fork**: 10,623 · **开放 issue**: 21,788 · **贡献者**: 1,959
 
 ## 累计统计
 
-- **发布数**: 443 · **已合并 PR**: 13766 · **开放 PR**: 165 · **已关闭 issue**: 20021 · **开放 issue**: 1766 · **提交数**: 35954
+- **发布数**: 443 · **已合并 PR**: 13769 · **开放 PR**: 166 · **已关闭 issue**: 20022 · **开放 issue**: 1766 · **提交数**: 35959
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 6 | 100 | 24 | 22 | 17 | 83 |
-| last60d | 2026-07-24 | 12 | 180 | 26 | 31 | 25 | 201 |
-| 90d | 2026-06-24 | 21 | 265 | 34 | 40 | 30 | 340 |
-| last180d | 2026-03-26 | 37 | 515 | 42 | 106 | 52 | 648 |
-| 360d | 2025-09-27 | 57 | 832 | 67 | 219 | 96 | 1199 |
-| last720d | 2024-10-02 | 100 | 1950 | 80 | 643 | 216 | 2543 |
+| 30d | 2026-08-24 | 6 | 101 | 25 | 23 | 17 | 88 |
+| last60d | 2026-07-25 | 12 | 183 | 27 | 32 | 25 | 206 |
+| 90d | 2026-06-25 | 19 | 265 | 35 | 41 | 30 | 345 |
+| last180d | 2026-03-27 | 37 | 517 | 43 | 107 | 52 | 653 |
+| 360d | 2025-09-28 | 57 | 835 | 68 | 220 | 96 | 1204 |
+| last720d | 2024-10-03 | 100 | 1948 | 81 | 641 | 216 | 2536 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ terraform 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:40:20Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:45:53Z._
