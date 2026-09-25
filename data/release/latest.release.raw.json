@@ -40,5 +40,17 @@
   ],
   "tarball_url": "https://api.github.com/repos/hashicorp/terraform/tarball/v1.16.4",
   "zipball_url": "https://api.github.com/repos/hashicorp/terraform/zipball/v1.16.4",
-  "body": "## 1.16.4 (September 23, 2026)\n\n\nBUG FIXES:\n\n* Fixed an issue where Terraform fails when rendering policy evaluation outcomes for older versions of Terraform Enterprise ([#39095](https://github.com/hashicorp/terraform/issues/39095))\n\n* stacks: Fix invalid deferred error triggered by provider returning a deferral when a resource also has an unknown count/for_each. ([#39237](https://github.com/hashicorp/terraform/issues/39237))\n\n\n"
+  "body": "## 1.16.4 (September 23, 2026)\n\n\nBUG FIXES:\n\n* Fixed an issue where Terraform fails when rendering policy evaluation outcomes for older versions of Terraform Enterprise ([#39095](https://github.com/hashicorp/terraform/issues/39095))\n\n* stacks: Fix invalid deferred error triggered by provider returning a deferral when a resource also has an unknown count/for_each. ([#39237](https://github.com/hashicorp/terraform/issues/39237))\n\n\n",
+  "reactions": {
+    "url": "https://api.github.com/repos/hashicorp/terraform/releases/394651380/reactions",
+    "total_count": 1,
+    "+1": 1,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
