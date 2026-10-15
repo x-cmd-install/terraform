@@ -42,27 +42,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.17.0-rc1` (2026-10-02)
+- **Latest**: `v1.17.0-rc2` (2026-10-14)
 - **Last commit**: 2026-10-13
 
 ## Popularity
 
-- **Stars**: 49,909 · **Forks**: 10,644 · **Open issues**: 21,808 · **Contributors**: 1,949
+- **Stars**: 49,917 · **Forks**: 10,644 · **Open issues**: 21,808 · **Contributors**: 1,949
 
 ## Totals (cumulative)
 
-- **Releases**: 447 · **Merged PRs**: 13862 · **Open PRs**: 153 · **Closed issues**: 20043 · **Open issues**: 1765 · **Commits**: 36112
+- **Releases**: 449 · **Merged PRs**: 13866 · **Open PRs**: 153 · **Closed issues**: 20042 · **Open issues**: 1766 · **Commits**: 36112
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 5 | 105 | 11 | 15 | 15 | 104 |
-| last60d | 2026-08-15 | 12 | 211 | 17 | 37 | 25 | 228 |
-| 90d | 2026-07-16 | 17 | 299 | 20 | 49 | 30 | 365 |
-| last180d | 2026-04-17 | 38 | 567 | 30 | 118 | 49 | 737 |
-| 360d | 2025-10-19 | 59 | 874 | 55 | 219 | 94 | 1272 |
-| last720d | 2024-10-24 | 100 | 2000 | 69 | 626 | 210 | 2583 |
+| 30d | 2026-09-15 | 7 | 99 | 11 | 14 | 14 | 104 |
+| last60d | 2026-08-16 | 14 | 215 | 17 | 37 | 26 | 228 |
+| 90d | 2026-07-17 | 19 | 303 | 20 | 49 | 31 | 365 |
+| last180d | 2026-04-18 | 40 | 571 | 30 | 118 | 50 | 737 |
+| 360d | 2025-10-20 | 61 | 876 | 55 | 215 | 95 | 1272 |
+| last720d | 2024-10-25 | 100 | 2001 | 69 | 625 | 210 | 2580 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for terraform lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T06:16:48Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T06:00:48Z._
