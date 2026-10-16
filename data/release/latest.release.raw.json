@@ -43,8 +43,8 @@
   "body": "## 1.16.6 (October 14, 2026)\n\n\nBUG FIXES:\n\n* cloud: `terraform init` can now find workspaces selected by key/value tags whose keys contain uppercase letters. ([#39306](https://github.com/hashicorp/terraform/issues/39306))\n\n* test: Allow module under test to use deprecated outputs. ([#39207](https://github.com/hashicorp/terraform/issues/39207))\n\n\nNOTES:\n\n* Prevent a HTTP/2 resource exhaustion via CVE-2026-78669. Exploitation would require a compromised (untrusted) provider/module registry. Such a threat is considered to be outside the perimeter of Terraform core security guarantees. ([#39375](https://github.com/hashicorp/terraform/issues/39375))\n\n\n",
   "reactions": {
     "url": "https://api.github.com/repos/hashicorp/terraform/releases/412544484/reactions",
-    "total_count": 1,
-    "+1": 1,
+    "total_count": 2,
+    "+1": 2,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
