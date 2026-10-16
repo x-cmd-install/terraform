@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 49,917 · **Forks**: 10,644 · **Open issues**: 21,808 · **Contributors**: 1,949
+- **Stars**: 49,930 · **Forks**: 10,644 · **Open issues**: 21,810 · **Contributors**: 1,949
 
 ## Totals (cumulative)
 
-- **Releases**: 449 · **Merged PRs**: 13866 · **Open PRs**: 153 · **Closed issues**: 20042 · **Open issues**: 1766 · **Commits**: 36112
+- **Releases**: 449 · **Merged PRs**: 13866 · **Open PRs**: 157 · **Closed issues**: 20042 · **Open issues**: 1768 · **Commits**: 36112
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 7 | 99 | 11 | 14 | 14 | 104 |
-| last60d | 2026-08-16 | 14 | 215 | 17 | 37 | 26 | 228 |
-| 90d | 2026-07-17 | 19 | 303 | 20 | 49 | 31 | 365 |
-| last180d | 2026-04-18 | 40 | 571 | 30 | 118 | 50 | 737 |
-| 360d | 2025-10-20 | 61 | 876 | 55 | 215 | 95 | 1272 |
-| last720d | 2024-10-25 | 100 | 2001 | 69 | 625 | 210 | 2580 |
+| 30d | 2026-09-16 | 7 | 97 | 16 | 10 | 16 | 104 |
+| last60d | 2026-08-17 | 14 | 210 | 22 | 37 | 28 | 228 |
+| 90d | 2026-07-18 | 19 | 303 | 24 | 49 | 33 | 365 |
+| last180d | 2026-04-19 | 40 | 571 | 34 | 118 | 52 | 737 |
+| 360d | 2025-10-21 | 61 | 873 | 59 | 215 | 97 | 1272 |
+| last720d | 2024-10-26 | 100 | 2000 | 73 | 625 | 212 | 2577 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for terraform lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261015.yml` · 2026-10-15T06:00:48Z._
+_Snapshot: `data/card/261016.yml` · 2026-10-16T05:55:31Z._
