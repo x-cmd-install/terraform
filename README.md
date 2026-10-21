@@ -14,11 +14,11 @@ x install terraform
 
 ## Code insight
 
-Total: **614,758** lines of code across **4754** files in the top 5 languages.
+Total: **614,833** lines of code across **4755** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 557,398 | 70,220 | 78,217 | 2043 |
+| Go | 557,473 | 70,217 | 78,227 | 2044 |
 | Json | 29,681 | 0 | 7 | 387 |
 | Hcl | 24,319 | 1,091 | 4,715 | 2294 |
 | Protobuf | 2,829 | 1,771 | 725 | 15 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.17.0-rc2` (2026-10-14)
-- **Last commit**: 2026-10-19
+- **Last commit**: 2026-10-20
 
 ## Popularity
 
-- **Stars**: 49,987 · **Forks**: 10,652 · **Open issues**: 21,812 · **Contributors**: 1,949
+- **Stars**: 49,993 · **Forks**: 10,609 · **Open issues**: 21,813 · **Contributors**: 1,949
 
 ## Totals (cumulative)
 
-- **Releases**: 449 · **Merged PRs**: 13877 · **Open PRs**: 155 · **Closed issues**: 20048 · **Open issues**: 1764 · **Commits**: 36122
+- **Releases**: 449 · **Merged PRs**: 13878 · **Open PRs**: 155 · **Closed issues**: 20049 · **Open issues**: 1764 · **Commits**: 36123
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 6 | 100 | 14 | 14 | 13 | 92 |
-| last60d | 2026-08-21 | 12 | 210 | 20 | 40 | 25 | 220 |
-| 90d | 2026-07-22 | 19 | 304 | 21 | 52 | 30 | 347 |
-| last180d | 2026-04-23 | 38 | 564 | 32 | 120 | 49 | 733 |
-| 360d | 2025-10-25 | 60 | 875 | 57 | 213 | 94 | 1274 |
-| last720d | 2024-10-30 | 100 | 2002 | 71 | 623 | 207 | 2563 |
+| 30d | 2026-09-21 | 6 | 95 | 13 | 13 | 13 | 93 |
+| last60d | 2026-08-22 | 12 | 211 | 20 | 40 | 26 | 221 |
+| 90d | 2026-07-23 | 19 | 293 | 21 | 52 | 31 | 348 |
+| last180d | 2026-04-24 | 38 | 563 | 32 | 120 | 50 | 734 |
+| 360d | 2025-10-26 | 60 | 876 | 57 | 213 | 95 | 1275 |
+| last720d | 2024-10-31 | 100 | 1999 | 71 | 619 | 208 | 2553 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for terraform lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261020.yml` · 2026-10-20T06:14:15Z._
+_Snapshot: `data/card/261021.yml` · 2026-10-21T06:01:39Z._
