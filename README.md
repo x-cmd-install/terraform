@@ -42,27 +42,37 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.17.0` (2026-10-21)
-- **Last commit**: 2026-10-21
+- **Latest**: `v1.16.7` (2026-10-22)
+- **Last commit**: 2026-10-22
 
 ## Popularity
 
-- **Stars**: 50,008 · **Forks**: 10,602 · **Open issues**: 21,816 · **Contributors**: 1,948
+- **Stars**: 50,078 · **Forks**: 10,595 · **Open issues**: 21,820 · **Contributors**: 1,950
 
 ## Totals (cumulative)
 
-- **Releases**: 450 · **Merged PRs**: 13887 · **Open PRs**: 156 · **Closed issues**: 20051 · **Open issues**: 1765 · **Commits**: 36127
+- **Releases**: 451 · **Merged PRs**: 13892 · **Open PRs**: 155 · **Closed issues**: 20052 · **Open issues**: 1768 · **Commits**: 36128
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 7 | 100 | 14 | 14 | 14 | 97 |
-| last60d | 2026-08-23 | 13 | 220 | 21 | 42 | 27 | 225 |
-| 90d | 2026-07-24 | 19 | 300 | 22 | 54 | 32 | 352 |
-| last180d | 2026-04-25 | 39 | 572 | 33 | 122 | 51 | 738 |
-| 360d | 2025-10-27 | 61 | 882 | 58 | 214 | 95 | 1279 |
-| last720d | 2024-11-01 | 100 | 2004 | 72 | 621 | 208 | 2551 |
+| 30d | 2026-09-23 | 8 | 96 | 13 | 14 | 17 | 98 |
+| last60d | 2026-08-24 | 14 | 223 | 20 | 42 | 30 | 226 |
+| 90d | 2026-07-25 | 20 | 305 | 21 | 54 | 35 | 353 |
+| last180d | 2026-04-26 | 40 | 577 | 32 | 122 | 54 | 739 |
+| 360d | 2025-10-28 | 62 | 882 | 57 | 212 | 97 | 1280 |
+| last720d | 2024-11-02 | 100 | 2008 | 71 | 621 | 211 | 2543 |
+
+## Distribution status
+
+Reported by **136** distros on [repology.org](https://repology.org/project/terraform). **5** are ✅ on the latest upstream release, **34** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `1.15.9` | ⚠️ outdated |
+| Nix unstable | `1.16.5` | ⚠️ outdated |
+| Void | `1.16.5` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -73,4 +83,4 @@ Install metadata for terraform lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T06:05:08Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T06:05:01Z._
