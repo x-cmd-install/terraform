@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 50,098 · **Forks**: 10,598 · **Open issues**: 21,822 · **Contributors**: 1,950
+- **Stars**: 50,114 · **Forks**: 10,599 · **Open issues**: 21,822 · **Contributors**: 1,950
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 6 | 96 | 16 | 15 | 16 | 104 |
-| last60d | 2026-08-25 | 14 | 223 | 23 | 43 | 28 | 232 |
-| 90d | 2026-07-26 | 20 | 307 | 24 | 56 | 35 | 359 |
-| last180d | 2026-04-27 | 40 | 575 | 35 | 123 | 54 | 745 |
-| 360d | 2025-10-29 | 62 | 881 | 60 | 212 | 95 | 1286 |
-| last720d | 2024-11-03 | 100 | 2010 | 74 | 623 | 211 | 2549 |
+| 30d | 2026-09-25 | 6 | 89 | 15 | 12 | 16 | 78 |
+| last60d | 2026-08-26 | 14 | 219 | 22 | 41 | 28 | 206 |
+| 90d | 2026-07-27 | 20 | 306 | 23 | 56 | 35 | 313 |
+| last180d | 2026-04-28 | 40 | 571 | 35 | 122 | 54 | 707 |
+| 360d | 2025-10-30 | 62 | 880 | 59 | 211 | 93 | 1269 |
+| last720d | 2024-11-04 | 100 | 2004 | 74 | 623 | 210 | 2549 |
 
 ## Distribution status
 
@@ -71,7 +71,7 @@ Reported by **135** distros on [repology.org](https://repology.org/project/terra
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `1.15.9` | ⚠️ outdated |
-| Nix unstable | `1.16.5` | ⚠️ outdated |
+| Nix unstable | `1.16.6` | ⚠️ outdated |
 | Void | `1.16.5` | ⚠️ outdated |
 
 ## Improve this data
@@ -83,4 +83,4 @@ Install metadata for terraform lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T05:54:40Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T05:55:47Z._
