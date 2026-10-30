@@ -43,11 +43,11 @@
   "body": "## 1.17.1 (October 28, 2026)\n\n\nBUG FIXES:\n\n* fmt: The original content of a file is now preserved if Terraform experiences an error writing to the original file. ([#39303](https://github.com/hashicorp/terraform/issues/39303))\n\n* Always evaluate module policies during destroy plan ([#39455](https://github.com/hashicorp/terraform/issues/39455))\n\n* stacks: report every policy result for a replaced resource instead of only one of them ([#39453](https://github.com/hashicorp/terraform/issues/39453))\n\n\n",
   "reactions": {
     "url": "https://api.github.com/repos/hashicorp/terraform/releases/427012920/reactions",
-    "total_count": 2,
+    "total_count": 6,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
-    "hooray": 2,
+    "hooray": 6,
     "confused": 0,
     "heart": 0,
     "rocket": 0,
