@@ -1,3 +1,12 @@
+- repo: wakemeops
+  subrepo: devops
+  binname: terraform
+  visiblename: terraform
+  version: 1.15.3
+  origversion: 1.15.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: arch
   subrepo: extra
   srcname: terraform
@@ -60,9 +69,9 @@
 - repo: chocolatey
   binname: terraform
   visiblename: Terraform
-  version: 1.17.0
+  version: 1.17.1
   origversion: null
-  status: outdated
+  status: newest
   summary: Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.
 - repo: chromebrew
   srcname: terraform
@@ -85,18 +94,6 @@
     - dutra@freebsd.org
   categories:
     - sysutils
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: terraform
-  visiblename: terraform
-  version: 0.13.4
-  origversion: 0.13.4-6.3.1
-  status: outdated
-  summary: Tool for building infrastructure safely and efficiently
-  licenses:
-    - MPL-2.0
-  categories:
-    - System/Management
 - repo: gentoo
   srcname: app-admin/terraform
   visiblename: app-admin/terraform
@@ -171,6 +168,17 @@
     - sophie@offensive-security.com
   categories:
     - golang
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: terraform
+  binname: terraform
+  visiblename: terraform
+  version: 1.15.9
+  origversion: 1.15.9-1
+  status: outdated
+  summary: HashiCorp tool for building and updating infrastructure as code idempotently
+  licenses:
+    - BUSL-1.1
 - repo: liguros_stable
   srcname: app-admin/terraform
   visiblename: app-admin/terraform
@@ -190,6 +198,18 @@
     - MPL-2.0
   categories:
     - app-admin
+- repo: pkgsrc_2026_3
+  srcname: net/terraform15
+  binname: terraform15
+  visiblename: net/terraform15
+  version: 1.5.7
+  origversion: 1.5.7nb3
+  status: outdated
+  summary: Infrastructure orchestration tool
+  maintainers:
+    - leot@netbsd.org
+  categories:
+    - net
 - repo: liguros_stable
   srcname: app-admin/terraform
   visiblename: app-admin/terraform
@@ -354,19 +374,6 @@
     - Permissive
   categories:
     - sysutils
-- repo: parrot
-  subrepo: parrot/main
-  srcname: terraform
-  binnames:
-    - terraform
-  visiblename: terraform
-  version: 1.6.0~alpha20230816+really1.5.6
-  origversion: 1.6.0~alpha20230816+really1.5.6-0parrot1
-  status: outdated
-  maintainers:
-    - palinuro@parrotsec.org
-  categories:
-    - golang
 - repo: macports
   srcname: sysutils/terraform
   binname: terraform-1.12
@@ -454,23 +461,6 @@
     - sysutils
 - repo: macports
   srcname: sysutils/terraform
-  binname: terraform-1.6
-  visiblename: terraform-1.6
-  version: 1.6.6
-  origversion: null
-  status: legacy
-  summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
-  maintainers:
-    - emcrisostomo@macports
-    - emcrisostomo@github
-    - herbygillot@github
-  licenses:
-    - Commercial
-    - Permissive
-  categories:
-    - sysutils
-- repo: macports
-  srcname: sysutils/terraform
   binname: terraform-1.7
   visiblename: terraform-1.7
   version: 1.7.5
@@ -488,9 +478,43 @@
     - sysutils
 - repo: macports
   srcname: sysutils/terraform
+  binname: terraform-1.6
+  visiblename: terraform-1.6
+  version: 1.6.6
+  origversion: null
+  status: legacy
+  summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
+  maintainers:
+    - emcrisostomo@macports
+    - emcrisostomo@github
+    - herbygillot@github
+  licenses:
+    - Commercial
+    - Permissive
+  categories:
+    - sysutils
+- repo: macports
+  srcname: sysutils/terraform
   binname: terraform-1.5
   visiblename: terraform-1.5
   version: 1.5.7
+  origversion: null
+  status: legacy
+  summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
+  maintainers:
+    - emcrisostomo@macports
+    - emcrisostomo@github
+    - herbygillot@github
+  licenses:
+    - Commercial
+    - Permissive
+  categories:
+    - sysutils
+- repo: macports
+  srcname: sysutils/terraform
+  binname: terraform-0.15
+  visiblename: terraform-0.15
+  version: 0.15.5
   origversion: null
   status: legacy
   summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
@@ -539,23 +563,6 @@
     - sysutils
 - repo: macports
   srcname: sysutils/terraform
-  binname: terraform-0.15
-  visiblename: terraform-0.15
-  version: 0.15.5
-  origversion: null
-  status: legacy
-  summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
-  maintainers:
-    - emcrisostomo@macports
-    - emcrisostomo@github
-    - herbygillot@github
-  licenses:
-    - Commercial
-    - Permissive
-  categories:
-    - sysutils
-- repo: macports
-  srcname: sysutils/terraform
   binname: terraform-0.12
   visiblename: terraform-0.12
   version: 0.12.31
@@ -576,34 +583,23 @@
   srcname: terraform
   binname: terraform
   visiblename: terraform
-  version: 1.15.9
-  origversion: 1.15.9-1
+  version: 1.5.7
+  origversion: 1.5.7-1
   status: outdated
   summary: HashiCorp tool for building and updating infrastructure as code idempotently
   licenses:
-    - BUSL-1.1
+    - MPL
 - repo: manjaro_testing
   subrepo: extra
   srcname: terraform
   binname: terraform
   visiblename: terraform
-  version: 1.15.9
-  origversion: 1.15.9-1
+  version: 1.5.7
+  origversion: 1.5.7-1
   status: outdated
   summary: HashiCorp tool for building and updating infrastructure as code idempotently
   licenses:
-    - BUSL-1.1
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: terraform
-  binname: terraform
-  visiblename: terraform
-  version: 1.15.9
-  origversion: 1.15.9-1
-  status: outdated
-  summary: HashiCorp tool for building and updating infrastructure as code idempotently
-  licenses:
-    - BUSL-1.1
+    - MPL
 - repo: nix_stable_24_05
   srcname: terraform
   visiblename: terraform
@@ -690,18 +686,6 @@
     - github@une-pause-cafe.fr
   licenses:
     - BUSL-1.1
-- repo: pkgsrc_2026_3
-  srcname: net/terraform15
-  binname: terraform15
-  visiblename: net/terraform15
-  version: 1.5.7
-  origversion: 1.5.7nb3
-  status: outdated
-  summary: Infrastructure orchestration tool
-  maintainers:
-    - leot@netbsd.org
-  categories:
-    - net
 - repo: nix_stable_26_05
   srcname: terraform_1
   visiblename: terraform
@@ -795,15 +779,31 @@
     - MPL/2.0
   categories:
     - Filesystem
-- repo: wakemeops
-  subrepo: devops
-  binname: terraform
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: terraform
   visiblename: terraform
-  version: 1.16.0
-  origversion: 1.16.0-1~ops2deb
-  status: legacy
+  version: 0.13.4
+  origversion: 0.13.4-6.3.1
+  status: outdated
+  summary: Tool for building infrastructure safely and efficiently
+  licenses:
+    - MPL-2.0
+  categories:
+    - System/Management
+- repo: parrot
+  subrepo: parrot/main
+  srcname: terraform
+  binnames:
+    - terraform
+  visiblename: terraform
+  version: 1.6.0~alpha20230816+really1.5.6
+  origversion: 1.6.0~alpha20230816+really1.5.6-0parrot1
+  status: outdated
   maintainers:
-    - ops2deb@upciti.com
+    - palinuro@parrotsec.org
+  categories:
+    - golang
 - repo: pkgsrc_2026_2
   srcname: net/terraform
   binname: terraform
@@ -961,9 +961,9 @@
   srcname: terraform
   binname: terraform
   visiblename: terraform
-  version: 1.16.5
-  origversion: 1.16.5_1
-  status: outdated
+  version: 1.17.1
+  origversion: 1.17.1_1
+  status: newest
   summary: Tool for building, changing, and combining infrastructure
   maintainers:
     - gabriel@dmdutra.io
@@ -1045,6 +1045,15 @@
   subrepo: devops
   binname: terraform
   visiblename: terraform
+  version: 1.16.0
+  origversion: 1.16.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: devops
+  binname: terraform
+  visiblename: terraform
   version: 1.15.9
   origversion: 1.15.9-1~ops2deb
   status: legacy
@@ -1092,15 +1101,6 @@
   visiblename: terraform
   version: 1.15.4
   origversion: 1.15.4-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: terraform
-  visiblename: terraform
-  version: 1.15.3
-  origversion: 1.15.3-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -1420,6 +1420,16 @@
   licenses:
     - Business Source License 1.1
     - Mozilla Public License, version 2.0
+- repo: scoop
+  subrepo: versions
+  binname: terraform011
+  visiblename: terraform011
+  version: 0.11.15
+  origversion: null
+  status: legacy
+  licenses:
+    - MPL-2.0
+  vulnerable: true
 - repo: alpine_3_17
   subrepo: community
   srcname: terraform
@@ -1474,19 +1484,6 @@
   licenses:
     - MPL
   vulnerable: true
-- repo: pkgsrc_2026_3
-  srcname: net/terraform13
-  binname: terraform13
-  visiblename: net/terraform13
-  version: 1.3.10
-  origversion: 1.3.10nb3
-  status: legacy
-  summary: Infrastructure orchestration tool
-  maintainers:
-    - leot@netbsd.org
-  categories:
-    - net
-  vulnerable: true
 - repo: macports
   srcname: sysutils/terraform
   binname: terraform-1.4
@@ -1525,9 +1522,9 @@
   vulnerable: true
 - repo: macports
   srcname: sysutils/terraform
-  binname: terraform-1.1
-  visiblename: terraform-1.1
-  version: 1.1.9
+  binname: terraform-1.2
+  visiblename: terraform-1.2
+  version: 1.2.9
   origversion: null
   status: legacy
   summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
@@ -1543,9 +1540,9 @@
   vulnerable: true
 - repo: macports
   srcname: sysutils/terraform
-  binname: terraform-1.2
-  visiblename: terraform-1.2
-  version: 1.2.9
+  binname: terraform-1.1
+  visiblename: terraform-1.1
+  version: 1.1.9
   origversion: null
   status: legacy
   summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
@@ -1608,6 +1605,19 @@
   categories:
     - net
   vulnerable: true
+- repo: pkgsrc_2026_3
+  srcname: net/terraform13
+  binname: terraform13
+  visiblename: net/terraform13
+  version: 1.3.10
+  origversion: 1.3.10nb3
+  status: legacy
+  summary: Infrastructure orchestration tool
+  maintainers:
+    - leot@netbsd.org
+  categories:
+    - net
+  vulnerable: true
 - repo: pkgsrc_current
   srcname: net/terraform11
   binname: terraform11
@@ -1633,16 +1643,6 @@
     - leot@netbsd.org
   categories:
     - net
-  vulnerable: true
-- repo: scoop
-  subrepo: versions
-  binname: terraform011
-  visiblename: terraform011
-  version: 0.11.15
-  origversion: null
-  status: legacy
-  licenses:
-    - MPL-2.0
   vulnerable: true
 - repo: wakemeops
   subrepo: devops
