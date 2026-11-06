@@ -14,13 +14,13 @@ x install terraform
 
 ## Code insight
 
-Total: **619,998** lines of code across **4790** files in the top 5 languages.
+Total: **620,378** lines of code across **4794** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 562,575 | 70,861 | 79,049 | 2074 |
+| Go | 562,829 | 70,880 | 79,084 | 2074 |
 | Json | 29,681 | 0 | 7 | 387 |
-| Hcl | 24,382 | 1,099 | 4,728 | 2299 |
+| Hcl | 24,508 | 1,105 | 4,746 | 2303 |
 | Protobuf | 2,829 | 1,771 | 725 | 15 |
 | Sh | 411 | 173 | 158 | 15 |
 
@@ -43,30 +43,30 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.17.1` (2026-10-28)
-- **Last commit**: 2026-11-04
+- **Last commit**: 2026-11-05
 
 ## Popularity
 
-- **Stars**: 50,145 · **Forks**: 10,599 · **Open issues**: 21,836 · **Contributors**: 1,948
+- **Stars**: 50,145 · **Forks**: 10,596 · **Open issues**: 21,837 · **Contributors**: 1,948
 
 ## Totals (cumulative)
 
-- **Releases**: 452 · **Merged PRs**: 13926 · **Open PRs**: 154 · **Closed issues**: 20059 · **Open issues**: 1777 · **Commits**: 36159
+- **Releases**: 452 · **Merged PRs**: 13928 · **Open PRs**: 158 · **Closed issues**: 20059 · **Open issues**: 1778 · **Commits**: 36169
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 6 | 90 | 14 | 9 | 19 | 62 |
-| last60d | 2026-09-06 | 12 | 211 | 18 | 32 | 33 | 204 |
-| 90d | 2026-08-07 | 19 | 300 | 21 | 52 | 40 | 307 |
-| last180d | 2026-05-09 | 37 | 563 | 30 | 98 | 61 | 714 |
-| 360d | 2025-11-10 | 61 | 887 | 54 | 208 | 99 | 1283 |
-| last720d | 2024-11-15 | 100 | 1995 | 70 | 613 | 213 | 2479 |
+| 30d | 2026-10-07 | 6 | 81 | 18 | 9 | 20 | 72 |
+| last60d | 2026-09-07 | 12 | 208 | 23 | 30 | 34 | 214 |
+| 90d | 2026-08-08 | 19 | 302 | 26 | 52 | 41 | 317 |
+| last180d | 2026-05-10 | 37 | 565 | 35 | 97 | 61 | 724 |
+| 360d | 2025-11-11 | 61 | 887 | 59 | 208 | 100 | 1293 |
+| last720d | 2024-11-16 | 100 | 1997 | 74 | 612 | 214 | 2483 |
 
 ## Distribution status
 
-Reported by **135** distros on [repology.org](https://repology.org/project/terraform). **10** are ✅ on the latest upstream release, **28** are ⚠️ on an older version.
+Reported by **133** distros on [repology.org](https://repology.org/project/terraform). **12** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -83,4 +83,4 @@ Install metadata for terraform lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T08:11:28Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T08:16:34Z._
