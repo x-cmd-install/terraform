@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/hashicorp/terraform/releases/427012920",
-  "assets_url": "https://api.github.com/repos/hashicorp/terraform/releases/427012920/assets",
-  "upload_url": "https://uploads.github.com/repos/hashicorp/terraform/releases/427012920/assets{?name,label}",
-  "html_url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.1",
-  "id": 427012920,
+  "url": "https://api.github.com/repos/hashicorp/terraform/releases/441631396",
+  "assets_url": "https://api.github.com/repos/hashicorp/terraform/releases/441631396/assets",
+  "upload_url": "https://uploads.github.com/repos/hashicorp/terraform/releases/441631396/assets{?name,label}",
+  "html_url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.2",
+  "id": 441631396,
   "author": {
     "login": "hc-github-team-es-release-engineering",
     "id": 82989873,
@@ -25,32 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOAQ6CpM4Zc7M4",
-  "tag_name": "v1.17.1",
-  "target_commitish": "ff6329e4c2a159b46ec2b73d36bfa3d0ef6560c9",
-  "name": "v1.17.1",
+  "node_id": "RE_kwDOAQ6CpM4aUsKk",
+  "tag_name": "v1.17.2",
+  "target_commitish": "ae094fc0ee6d4f3d2a990b40ac48a6d2dbaeb53e",
+  "name": "v1.17.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-28T16:08:42Z",
-  "updated_at": "2026-10-28T18:02:22Z",
-  "published_at": "2026-10-28T18:02:22Z",
+  "created_at": "2026-11-11T10:30:35Z",
+  "updated_at": "2026-11-11T11:56:51Z",
+  "published_at": "2026-11-11T11:56:51Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/hashicorp/terraform/tarball/v1.17.1",
-  "zipball_url": "https://api.github.com/repos/hashicorp/terraform/zipball/v1.17.1",
-  "body": "## 1.17.1 (October 28, 2026)\n\n\nBUG FIXES:\n\n* fmt: The original content of a file is now preserved if Terraform experiences an error writing to the original file. ([#39303](https://github.com/hashicorp/terraform/issues/39303))\n\n* Always evaluate module policies during destroy plan ([#39455](https://github.com/hashicorp/terraform/issues/39455))\n\n* stacks: report every policy result for a replaced resource instead of only one of them ([#39453](https://github.com/hashicorp/terraform/issues/39453))\n\n\n",
-  "reactions": {
-    "url": "https://api.github.com/repos/hashicorp/terraform/releases/427012920/reactions",
-    "total_count": 8,
-    "+1": 0,
-    "-1": 0,
-    "laugh": 0,
-    "hooray": 8,
-    "confused": 0,
-    "heart": 0,
-    "rocket": 0,
-    "eyes": 0
-  }
+  "tarball_url": "https://api.github.com/repos/hashicorp/terraform/tarball/v1.17.2",
+  "zipball_url": "https://api.github.com/repos/hashicorp/terraform/zipball/v1.17.2",
+  "body": "## 1.17.2 (November 11, 2026)\n\n\nENHANCEMENTS:\n\n* query: Improve performance and reduce allocations when generating configuration from large HCP Terraform queries. ([#39470](https://github.com/hashicorp/terraform/issues/39470))\n\n\nBUG FIXES:\n\n* Providers referencing a managed resource with detroy=false can cause a cycle ([#39507](https://github.com/hashicorp/terraform/issues/39507))\n\n* init: Fix repeated unavailable-provider schema warnings in log output ([#39517](https://github.com/hashicorp/terraform/issues/39517))\n\n\n"
 }
