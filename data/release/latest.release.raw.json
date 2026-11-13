@@ -40,5 +40,17 @@
   ],
   "tarball_url": "https://api.github.com/repos/hashicorp/terraform/tarball/v1.17.2",
   "zipball_url": "https://api.github.com/repos/hashicorp/terraform/zipball/v1.17.2",
-  "body": "## 1.17.2 (November 11, 2026)\n\n\nENHANCEMENTS:\n\n* query: Improve performance and reduce allocations when generating configuration from large HCP Terraform queries. ([#39470](https://github.com/hashicorp/terraform/issues/39470))\n\n\nBUG FIXES:\n\n* Providers referencing a managed resource with detroy=false can cause a cycle ([#39507](https://github.com/hashicorp/terraform/issues/39507))\n\n* init: Fix repeated unavailable-provider schema warnings in log output ([#39517](https://github.com/hashicorp/terraform/issues/39517))\n\n\n"
+  "body": "## 1.17.2 (November 11, 2026)\n\n\nENHANCEMENTS:\n\n* query: Improve performance and reduce allocations when generating configuration from large HCP Terraform queries. ([#39470](https://github.com/hashicorp/terraform/issues/39470))\n\n\nBUG FIXES:\n\n* Providers referencing a managed resource with detroy=false can cause a cycle ([#39507](https://github.com/hashicorp/terraform/issues/39507))\n\n* init: Fix repeated unavailable-provider schema warnings in log output ([#39517](https://github.com/hashicorp/terraform/issues/39517))\n\n\n",
+  "reactions": {
+    "url": "https://api.github.com/repos/hashicorp/terraform/releases/441631396/reactions",
+    "total_count": 1,
+    "+1": 1,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
