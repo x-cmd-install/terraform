@@ -1,3 +1,12 @@
+- repo: wakemeops
+  subrepo: devops
+  binname: terraform
+  visiblename: terraform
+  version: 1.16.1
+  origversion: 1.16.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: arch
   subrepo: extra
   srcname: terraform
@@ -105,17 +114,6 @@
     - MPL-2.0
   categories:
     - app-admin
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: terraform
-  binname: terraform
-  visiblename: terraform
-  version: 1.15.9
-  origversion: 1.15.9-1
-  status: outdated
-  summary: HashiCorp tool for building and updating infrastructure as code idempotently
-  licenses:
-    - BUSL-1.1
 - repo: gentoo
   srcname: app-admin/terraform
   visiblename: app-admin/terraform
@@ -242,6 +240,23 @@
     - net
 - repo: macports
   srcname: sysutils/terraform
+  binname: terraform-1.16
+  visiblename: terraform-1.16
+  version: 1.16.7
+  origversion: null
+  status: legacy
+  summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
+  maintainers:
+    - emcrisostomo@macports
+    - emcrisostomo@github
+    - herbygillot@github
+  licenses:
+    - Commercial
+    - Permissive
+  categories:
+    - sysutils
+- repo: macports
+  srcname: sysutils/terraform
   binname: terraform-1.17
   visiblename: terraform-1.17
   version: 1.17.2
@@ -262,40 +277,6 @@
   binname: terraform-1.15
   visiblename: terraform-1.15
   version: 1.15.9
-  origversion: null
-  status: legacy
-  summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
-  maintainers:
-    - emcrisostomo@macports
-    - emcrisostomo@github
-    - herbygillot@github
-  licenses:
-    - Commercial
-    - Permissive
-  categories:
-    - sysutils
-- repo: macports
-  srcname: sysutils/terraform
-  binname: terraform-1.16
-  visiblename: terraform-1.16
-  version: 1.16.7
-  origversion: null
-  status: legacy
-  summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
-  maintainers:
-    - emcrisostomo@macports
-    - emcrisostomo@github
-    - herbygillot@github
-  licenses:
-    - Commercial
-    - Permissive
-  categories:
-    - sysutils
-- repo: macports
-  srcname: sysutils/terraform
-  binname: terraform-1.14
-  visiblename: terraform-1.14
-  version: 1.14.9
   origversion: null
   status: legacy
   summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
@@ -344,9 +325,38 @@
     - sysutils
 - repo: macports
   srcname: sysutils/terraform
-  binname: terraform-1.10
-  visiblename: terraform-1.10
-  version: 1.10.5
+  binname: terraform-1.14
+  visiblename: terraform-1.14
+  version: 1.14.9
+  origversion: null
+  status: legacy
+  summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
+  maintainers:
+    - emcrisostomo@macports
+    - emcrisostomo@github
+    - herbygillot@github
+  licenses:
+    - Commercial
+    - Permissive
+  categories:
+    - sysutils
+- repo: pkgsrc_2026_3
+  srcname: net/terraform013
+  binname: terraform013
+  visiblename: net/terraform013
+  version: 0.13.7
+  origversion: 0.13.7nb4
+  status: legacy
+  summary: Infrastructure orchestration tool
+  maintainers:
+    - leot@netbsd.org
+  categories:
+    - net
+- repo: macports
+  srcname: sysutils/terraform
+  binname: terraform-1.11
+  visiblename: terraform-1.11
+  version: 1.11.4
   origversion: null
   status: legacy
   summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
@@ -361,9 +371,9 @@
     - sysutils
 - repo: macports
   srcname: sysutils/terraform
-  binname: terraform-1.11
-  visiblename: terraform-1.11
-  version: 1.11.4
+  binname: terraform-1.10
+  visiblename: terraform-1.10
+  version: 1.10.5
   origversion: null
   status: legacy
   summary: A tool for building, changing, and versioning infrastructure safely and efficiently.
@@ -551,6 +561,17 @@
   summary: HashiCorp tool for building and updating infrastructure as code idempotently
   licenses:
     - BUSL-1.1
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: terraform
+  binname: terraform
+  visiblename: terraform
+  version: 1.15.9
+  origversion: 1.15.9-1
+  status: outdated
+  summary: HashiCorp tool for building and updating infrastructure as code idempotently
+  licenses:
+    - BUSL-1.1
 - repo: nix_stable_24_05
   srcname: terraform
   visiblename: terraform
@@ -657,9 +678,9 @@
 - repo: nix_unstable
   srcname: terraform
   visiblename: terraform
-  version: 1.17.1
+  version: 1.17.2
   origversion: null
-  status: outdated
+  status: newest
   summary: Tool for building, changing, and versioning infrastructure
   maintainers:
     - dr.elhombrechile@gmail.com
@@ -750,18 +771,6 @@
   visiblename: net/terraform012
   version: 0.12.31
   origversion: 0.12.31nb4
-  status: legacy
-  summary: Infrastructure orchestration tool
-  maintainers:
-    - leot@netbsd.org
-  categories:
-    - net
-- repo: pkgsrc_2026_3
-  srcname: net/terraform013
-  binname: terraform013
-  visiblename: net/terraform013
-  version: 0.13.7
-  origversion: 0.13.7nb4
   status: legacy
   summary: Infrastructure orchestration tool
   maintainers:
@@ -978,15 +987,6 @@
   visiblename: terraform
   version: 1.16.2
   origversion: 1.16.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: devops
-  binname: terraform
-  visiblename: terraform
-  version: 1.16.1
-  origversion: 1.16.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
